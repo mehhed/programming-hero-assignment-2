@@ -8,8 +8,22 @@ h1{
     font-size: 2.81rem;
     font-weight: 700;
 }
-body{
-    padding: 0px 200px;
+p{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+.btn{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 48px;
+    color: #FFF;
+    display: inline-block;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    text-transform: uppercase;
 }
 /* ..................................... */
 /* navigation css  */
@@ -17,7 +31,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0px;
+    padding: 15px 200px;
+    box-shadow: 0px 10px 10px #f9f9f9;
 }
 .menu{
     display: flex;
@@ -60,3 +75,45 @@ nav{
 /* navigation section end  */
 
 /* banner css start */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 200px;
+    /* background-color: #f9f9f9; */
+    background: url(images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-position:  -216px center;
+}
+.banner-heading{
+    padding: 100px 0px;
+}
+.banner-heading, .banner-img{
+    width: 50%;
+}
+.banner-img img{
+    width: 100%;
+}
+.banner-heading h2{
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.banner-heading h3{
+    font-family: Work Sans;
+    font-size: 5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+}
+.banner-heading p{
+    margin: 10px 0px;
+}

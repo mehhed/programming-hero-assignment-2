@@ -1,11 +1,9 @@
 /* responsive css for mobile  */
 @media screen and (max-width:425px) {
     /* navigation responsive css  */
-    body {
-        padding: 0px 27px;
-    }
     nav {
         flex-direction: column;
+        padding: 30px 20px;
     }
     .menu {
         flex-direction: column;
@@ -14,12 +12,36 @@
         display: block;
         margin: 15px 0px;
     }
+    /* banner responsive css  */
+    .banner {
+        padding: 0px 40px;
+        background-color: #fff;
+        background: inherit;
+        background-repeat:inherit;
+        background-position: inherit;
+        flex-direction: column-reverse;
+    }
+    .banner-heading, .banner-img{
+        width: 100%;
+    }
+    .banner-heading {
+        background: url(images/Group\ 14.png) no-repeat right center;
+        background-size: cover;
+        padding: 70px 30px;
+        box-sizing: border-box;
+    }
+    .banner-heading p {
+        font-size: 1rem;
+    }
+    .banner-heading div {
+       margin-top: 20px;
+    }
 }
 /* responsive css for tablet  */
 @media screen and (max-width:768px) {
     /* navigation responsive css  */
-    body {
-        padding: 0px 20px;
+    nav {
+        padding: 30px 20px;
     }
     .logo h1{
         font-size: 1.81rem;
@@ -27,5 +49,15 @@
     .menu ul li a {
         font-size: 1rem;
         padding: 0px 9px;
+    }
+    /* banner responsive css  */
+    .banner {
+        padding: 0px 30px;
+    }
+    .banner-heading h3 {
+        font-size: 3rem;
+    }
+    .banner-heading h2 {
+        font-size: 1.50rem;
     }
 }
