@@ -1,0 +1,17 @@
+/* responsive css for mobile  */
+@media screen and (max-width:425px) {
+    /* navigation responsive css  */
+    body {
+        padding: 0px 27px;
+    }
+    nav {
+        flex-direction: column;
+    }
+    .menu {
+        flex-direction: column;
+    }
+    .menu ul li {
+        display: block;
+        margin: 15px 0px;
+    }
+}
