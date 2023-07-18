@@ -15,3 +15,17 @@
         margin: 15px 0px;
     }
 }
+/* responsive css for tablet  */
+@media screen and (max-width:768px) {
+    /* navigation responsive css  */
+    body {
+        padding: 0px 20px;
+    }
+    .logo h1{
+        font-size: 1.81rem;
+    }
+    .menu ul li a {
+        font-size: 1rem;
+        padding: 0px 9px;
+    }
+}
