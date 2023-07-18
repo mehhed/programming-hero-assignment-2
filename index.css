@@ -3,7 +3,6 @@
     padding: 0%;
 }
 h1{
-    text-align: center;
     font-family: Work Sans;
     font-size: 2.81rem;
     font-weight: 700;
@@ -116,4 +115,33 @@ nav{
 }
 .banner-heading p{
     margin: 10px 0px;
+}
+
+/*  we are gamer section css  */
+.we-are-gamer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 200px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.we-are-gamer h1{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+.we-are-gamer .gamer-text div{
+    margin: 20px 0px;
+}
+.gamer-text {
+    text-align: end;
+    width: 43%;
+}
+.gamer-img{
+    width: 57%;
+}
+.gamer-img img{
+    width: 100%;
 }

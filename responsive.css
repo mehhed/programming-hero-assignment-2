@@ -36,6 +36,18 @@
     .banner-heading div {
        margin-top: 20px;
     }
+    /* we are gamer section  */
+    .we-are-gamer {
+        padding: 15px 30px;
+        flex-direction: column;
+    }
+    .gamer-img {
+        width: 100%;
+    }
+    .gamer-text {
+        width: 100%;
+        text-align: center;
+    }
 }
 /* responsive css for tablet  */
 @media screen and (max-width:768px) {
@@ -59,5 +71,17 @@
     }
     .banner-heading h2 {
         font-size: 1.50rem;
+    }
+    /* we are gamer section  */
+    .we-are-gamer {
+        padding: 50px 20px;
+        flex-direction: column-reverse;
+    }
+    .gamer-img{
+        width: 100%;
+    }
+    .gamer-text{
+        width: 100%;
+        text-align: justify;
     }
 }
