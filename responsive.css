@@ -35,6 +35,8 @@
     }
     .banner-heading div {
        margin-top: 20px;
+       display: flex;
+       flex-wrap: wrap;
     }
     /* we are gamer section  */
     .we-are-gamer {
@@ -48,9 +50,24 @@
         width: 100%;
         text-align: center;
     }
+    /* online game section  */
+    .online-game {
+        padding: 50px 50px;
+    }
+    .game-item-container{
+        grid-template-areas: 
+        "game-item-inner-1"              
+        "game-item-inner-2"              
+        "game-item-inner-3"              
+        "game-item-inner-4"              
+        ;
+    }
+    .game-item-img{
+        height: inherit;
+    }
 }
 /* responsive css for tablet  */
-@media screen and (max-width:768px) {
+@media screen and (max-width:768px) and (min-width:426px){
     /* navigation responsive css  */
     nav {
         padding: 30px 20px;
@@ -84,4 +101,14 @@
         width: 100%;
         text-align: justify;
     }
+    /* online game section  */
+    .online-game {
+        padding: 50px 55px;
+    }
+    .game-item-container {
+        grid-template-areas: "game-item-inner-1 game-item-inner-2"
+                " game-item-inner-3 game-item-inner-4";
+        gap: 20px 141px;
+    }
+
 }

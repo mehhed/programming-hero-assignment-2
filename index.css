@@ -79,7 +79,6 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 0px 200px;
-    /* background-color: #f9f9f9; */
     background: url(images/Group\ 14.png);
     background-repeat: no-repeat;
     background-position:  -216px center;
@@ -144,4 +143,50 @@ nav{
 }
 .gamer-img img{
     width: 100%;
+}
+
+/* online game section css  */
+.online-game{
+    padding: 50px 200px;
+}
+.online-game h1 span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.game-item-inner-1{grid-area: game-item-inner-1;}
+.game-item-inner-2{grid-area: game-item-inner-2;}
+.game-item-inner-3{grid-area: game-item-inner-3;}
+.game-item-inner-4{grid-area: game-item-inner-4;}
+.game-item-container{
+    display: grid;
+    grid-template-areas: 
+    "game-item-inner-1 game-item-inner-2 game-item-inner-3 game-item-inner-4";
+    gap: 10px;
+    justify-content: space-evenly;
+}
+.game-item-img{
+    position: relative;
+    height: 300px;
+}
+.hover-effect{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.603);
+    visibility: hidden;
+    opacity: 0;
+    transition: all .4s ease-in-out;
+}
+.game-item-img:hover  .hover-effect{
+    visibility: visible;
+    opacity: 1;
 }
