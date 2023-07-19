@@ -238,3 +238,94 @@ nav{
 .play-game .Play-Instantly-text h1{
     margin-bottom: 30px;
 }
+/* Careers section css  */
+.Careers{
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+.Careers-text{
+    padding:50px 0px 100px 200px;
+    box-sizing: border-box;
+    width: 50%;
+}
+.Careers-text div{
+    display: flex;
+    justify-content: space-between;
+}
+.Careers-text div .ul-2{
+    text-align: end;
+}
+.Careers-text div ul li{
+    list-style: none;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: .9rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    margin: 0%;
+}
+.Careers-img{
+    box-sizing: border-box;
+    width: 50%;
+}
+.Careers-img img{
+   width: 100%;
+   height: 100%;
+}
+
+
+ /* footer section css  */
+ footer{
+    padding: 50px 20px;
+    background: #0B0223;
+ }
+.footer-menu-item-1{grid-area: footer-menu-item-1;}
+.footer-menu-item-2{grid-area: footer-menu-item-2;}
+.footer-menu-item-3{grid-area: footer-menu-item-3;}
+.footer-menu-item-4{grid-area: footer-menu-item-4;}
+.footer-menu-item-5{grid-area: footer-menu-item-5;}
+.footer-menu-item-6{grid-area: footer-menu-item-6;}
+.footer-menu{
+    display: grid;
+    grid-template-areas: 
+    "footer-menu-item-1 footer-menu-item-2 footer-menu-item-3 footer-menu-item-4 footer-menu-item-5 footer-menu-item-6";
+    justify-content: center;
+    gap:0px 30px;
+    margin: 20px 0px;
+}
+.footer-menu a{
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1.12rem;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+}
+.terms-condition{grid-area: terms-condition ;}
+.privacy{grid-area: privacy;}
+.cookie{grid-area: cookie;}
+.pri-setting{grid-area: pri-setting;}
+.terms{
+    display: grid;
+    grid-template-areas:
+    "terms-condition privacy cookie pri-setting";
+    justify-content: center;
+    gap: 30px;
+}
+.terms a{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 500;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
