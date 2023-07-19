@@ -190,3 +190,51 @@ nav{
     visibility: visible;
     opacity: 1;
 }
+/* Play-Instantly section css  */
+.Play-Instantly{
+    padding: 50px 200px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+.Play-Instantly-text{
+    text-align: end;
+    display: flex;
+    align-items: center;
+}
+.Play-Instantly-text, .Play-Instantly-img {
+    width: 50%;
+}
+.Play-Instantly-img .img-1{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Play-Instantly-img div{
+    position: relative;
+}
+.Play-Instantly-img .img-2 {
+    width: 200px;
+    position: absolute;
+    left: -80px;
+    bottom: -50px;
+}
+
+/* play game section  */
+.play-game{
+    flex-direction: row-reverse;
+}
+.play-game-img-2{
+    width: 200px;
+    position: absolute;
+    right: -80px;
+    bottom: -50px;
+}
+.play-game .Play-Instantly-text {
+    text-align: left;
+}
+.play-game .Play-Instantly-text h1{
+    margin-bottom: 30px;
+}

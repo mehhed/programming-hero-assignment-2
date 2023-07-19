@@ -65,6 +65,52 @@
     .game-item-img{
         height: inherit;
     }
+    /* Play Instantly section  */
+    .Play-Instantly {
+        padding: 50px 71px;
+        flex-direction: column;
+        gap: 30px;
+        padding-top: 0px;
+    }
+    .Play-Instantly h1{   
+        text-align: center;
+        width: 79%;
+        margin: auto;
+        margin-bottom: 13px; 
+        font-size: 1.81rem;
+    }
+    .Play-Instantly p {
+        color: #534C64;
+        font-family: Work Sans;
+        font-size: 1rem;
+        text-align: center;
+        font-weight: 500;
+        text-transform: lowercase;
+    }
+
+    .Play-Instantly-img .img-2 {
+        width: 142px;
+        left: -52px;
+        bottom: -42px;
+    }
+    .Play-Instantly-text, .Play-Instantly-img {
+        width: 100%;
+    }
+    /* play game section  */
+    .play-game{
+        padding-top: 50px;
+    }
+    .play-game .Play-Instantly-text h1 {
+        font-size: 1.30rem;
+    }
+    .play-game .Play-Instantly-text p {
+        font-size: 1rem;
+    }
+    .play-game-img-2{
+        width: 142px;
+        right: -52px;
+        bottom: -42px;
+    }
 }
 /* responsive css for tablet  */
 @media screen and (max-width:768px) and (min-width:426px){
@@ -107,8 +153,19 @@
     }
     .game-item-container {
         grid-template-areas: "game-item-inner-1 game-item-inner-2"
-                " game-item-inner-3 game-item-inner-4";
+                             " game-item-inner-3 game-item-inner-4";
         gap: 20px 141px;
+    }
+    /* play instanly section  */
+    .Play-Instantly {
+        padding: 62px 20px;
+        padding-top: 0px;
+    }
+    .Play-Instantly h1 {
+        font-size: 1.81rem;
+    }
+    .Play-Instantly p {
+        font-size: 1rem;
     }
 
 }
