@@ -54,6 +54,12 @@
     .online-game {
         padding: 50px 50px;
     }
+    .online-game h1{
+        font-size: 1.40rem;
+    }
+    .online-game p {
+        font-size: .8rem;
+    }
     .game-item-container{
         grid-template-areas: 
         "game-item-inner-1"              
