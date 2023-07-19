@@ -127,7 +127,30 @@
         padding: 0px 0px 50px 0px;
         width: 100%;
     }
-
+    /* game list item  */
+    .game-list-icon-1{grid-area:game-list-icon-1;}
+    .game-list-icon-2{grid-area:game-list-icon-2;}
+    .game-list-icon-3{grid-area:game-list-icon-3;}
+    .game-list-icon-4{grid-area:game-list-icon-4;}
+    .game-list-icon-5{grid-area:game-list-icon-5;}
+    .game-list-icon-6{grid-area:game-list-icon-6;}
+    .game-list-icon-7{grid-area:game-list-icon-7;}
+    .game-list-icon-8{grid-area:game-list-icon-8;}
+    .game-list-icon-9{grid-area:game-list-icon-9;}
+    .game-item-list{
+        display: grid;
+        grid-template-areas: 
+        "game-list-icon-1 game-list-icon-2 game-list-icon-3"
+        "game-list-icon-4 game-list-icon-5 game-list-icon-6"
+        "game-list-icon-7 game-list-icon-8 game-list-icon-9";
+        padding: 100px 35px;
+    }
+    .game-item-list .game-list-icon img{
+        width: 30px;
+    }
+    .game-item-list .game-list-icon p{
+        font-size: .5rem;
+    }
     /* footer section  */
     .footer-menu{
         display: grid;
@@ -217,17 +240,26 @@
         font-size: 1rem;
     }
         /* play game section  */
-        .Careers{
-            padding: 50px 100px;
-            flex-direction: column-reverse;
-        }
-        .Careers-img {
-            padding: 0px 0px 0px 0px;
-            width: 100%;
-        }
-        .Careers-text{
-            padding: 50px 0px 0px 0px;
-            width: 100%;
-        }
-
+    .Careers{
+        padding: 50px 100px;
+        flex-direction: column-reverse;
+    }
+    .Careers-img {
+        padding: 0px 0px 0px 0px;
+        width: 100%;
+    }
+    .Careers-text{
+        padding: 50px 0px 0px 0px;
+        width: 100%;
+    }
+    /*game-item-list section  */
+    .game-item-list {
+        padding: 100px 40px;
+    }
+    .game-item-list .game-list-icon img{
+        width: 30px;
+    }
+    .game-item-list .game-list-icon p{
+        font-size: 1rem;
+    }
 }

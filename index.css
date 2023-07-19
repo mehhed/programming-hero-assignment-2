@@ -276,7 +276,32 @@ nav{
    height: 100%;
 }
 
-
+/* game-item-list section css  */
+.game-item-list{
+    padding: 100px 0px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.game-list-icon{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 5px;
+    background-color: #FFF;
+    padding:5px 10px;
+    border-radius: 50px;
+}
+.game-list-icon:hover{
+    border: 1px solid #F948B2;
+    transition: all .3s;
+}
+.game-list-icon:hover p{
+    color:  #F948B2;
+    transition: all .3s;
+}
  /* footer section css  */
  footer{
     padding: 50px 20px;
